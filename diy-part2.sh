@@ -12,7 +12,3 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-
-rm -rf feed/luci/themes/luci-theme-agron
-rm -rf feed/luci/applications/luci-app-qbittorrent
-mv /package/zyipk/luci-app-qbittorrent /feed/luci/applications/luci-app-qbittorrent
